@@ -12,11 +12,11 @@ const Home = () => {
 
 		<div className="container mt-5">
 			
-			<div className="container mt-5 bg-black " style={{width:150, borderRadius: '10%'}}>
+			<div className="d-flex justify-content-center container mt-5 bg-black " style={{width:200, borderRadius: '10%'}}>
 				<div className="d-inline-block d-flex flex-column alig-items-center">
-					<button className={"d-inline-block bg-danger rounded-circle m-3 " + (color == 'red' ? 'rojo' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("red")}}></button>
-					<button className={"d-inline-block bg-warning rounded-circle m-3 " + (color == 'yellow' ? 'amarillo' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("yellow")}}></button>
-					<button className={"d-inline-block bg-success rounded-circle m-3 " + (color == 'green' ? 'verde' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("green")}}></button>
+					<button className={" d-inline-block bg-danger rounded-circle m-3 " + (color == 'red' ? 'rojo' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("red")}}></button>
+					<button className={" d-inline-block bg-warning rounded-circle m-3 " + (color == 'yellow' ? 'amarillo' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("yellow")}}></button>
+					<button className={" d-inline-block bg-success rounded-circle m-3 " + (color == 'green' ? 'verde' : '') } style={{height: 80, width: 80}} onClick={()=>{setColor("green")}}></button>
 				</div>
 			</div>
 		</div>
