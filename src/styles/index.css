@@ -1,4 +1,16 @@
+.rojo {
+    box-shadow: -10px 4px 400px 77px rgba(red, green, rgb(43, 43, 214), alpha)
+}
 
+.amarillo {
+
+    box-shadow: -10px 4px 400px 77px rgba(rgb(208, 245, 25), green, blue, alpha)
+}
+
+.verde {
+
+    box-shadow: -10px 4px 400px 77px rgba(rgb(18, 167, 80), green, blue, alpha)
+}
 /* 
 
     You can write your own styles here...
